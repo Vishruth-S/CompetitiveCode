@@ -1,4 +1,6 @@
-
+# Logic
+# The required solution can be obtained by simply sorting the arrays. After sorting check if the arrays are exactly same or not.
+# If the arrays are same, it's possible to obtain the desired configuration, otherwise it's impossible.
 
 def organizingContainers(container):
     rows = [sum(x) for x in container]
@@ -13,10 +15,8 @@ def organizingContainers(container):
 if __name__ == '__main__':
 
     q = int(input())
-
     for q_itr in range(q):
         n = int(input())
-
         container = []
 
         for _ in range(n):
