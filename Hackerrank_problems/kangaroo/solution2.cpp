@@ -11,5 +11,34 @@
 //  If yes, then they reach together
 // Else they don't.
 
-// CODE:
+// CODE in C++ :
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    long long int x1,v1,x2,v2;
+    cin>>x1>>v1>>x2>>v2;
+
+    // checking initial conditions
+    if((x1>x2 && v1>v2) || (x2>x1 && v2>v1))
+        cout<<"NO"<<endl;
+    else if(x1==x2 && v1==v2)
+        cout<<"YES"<<endl;
+    else if(v1==v2)
+        cout<<"NO"<<endl;
+    else
+    {
+        // finding the 'y' that can satisfy x,v
+        long int y = abs((x2-x1)/(v1-v2));
+        // check if the 'y' satisfies the given x,v of kangaroos
+        if(x1+v1*y == x2+v2*y)
+            cout<<"YES"<<endl;
+        else   
+            cout<<"NO"<<endl;
+    }
+
+    return 0;
+}
 
