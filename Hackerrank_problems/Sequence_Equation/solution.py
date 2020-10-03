@@ -1,6 +1,5 @@
 #!/bin/python3
 
-import typing as t
 import math
 import os
 import random
@@ -8,7 +7,7 @@ import re
 import sys
 
 # Complete the permutationEquation function below.
-def permutationEquation(p: t.List[int]) -> t.List[int]:
+def permutationEquation(p):
     results = []
     for x in range(1, len(p) + 1):
         results.append(p.index(p.index(x) + 1) + 1)
