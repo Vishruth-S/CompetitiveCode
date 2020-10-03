@@ -8,7 +8,7 @@ You can contribute solutions to any problem provided it is not duplicate
   * Add your solution in any language
 
 * If you are submitting a new problem
-  * Add it to misc folder
+  * Add it to misc folder (if it doesn't exist, create it)
   * Should have 2 files: `problem.md` and `solution`
   * In `problem.md`, provide detailed explanation of problem statement and constraints with atleast 2 testcases and it's explanation
   * Add your solution in any language
