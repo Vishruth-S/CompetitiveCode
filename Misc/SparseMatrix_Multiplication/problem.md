@@ -119,7 +119,6 @@ Output
 ```
 product of 2 given matrices in triple form:
 ROW  COLUMN  VALUE
-3       3       6
 1       2       4
 2       2       7
 3       2       10
@@ -148,7 +147,6 @@ Matrix 2 (3 X 4)
 Triple representation of 1 is
 ```
 ROW  COLUMN  VALUE
-4       3       6
 1       3       4
 2       1       2
 2       3       1
@@ -160,7 +158,6 @@ ROW  COLUMN  VALUE
 Triple representation of 2 is
 ```
 ROW  COLUMN  VALUE
-3       4       4
 1       2       3
 2       2       2
 2       4       4
@@ -170,7 +167,6 @@ ROW  COLUMN  VALUE
 product of 2 given matrices in triple form:
 ```
 ROW  COLUMN  VALUE
-3       3       6
 1       2       4
 2       2       7
 3       2       10
