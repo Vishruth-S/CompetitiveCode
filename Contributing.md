@@ -1,6 +1,7 @@
 # Contributing
+You can contribute to this repo in any of the following ways
+## Adding new problems and solutions
 
-You can contribute solutions to any problem provided it is not duplicate  
 * If you are selecting a problem from a website like hackerrank, codechef etc
   * Add it to the respective folder (if it doesn't exist, create it)
   * Should have 2 files: `problem.md` and `solution`
@@ -12,6 +13,13 @@ You can contribute solutions to any problem provided it is not duplicate
   * Should have 2 files: `problem.md` and `solution`
   * In `problem.md`, provide detailed explanation of problem statement and constraints with atleast 2 testcases and it's explanation
   * Add your solution in any language
+
+## Adding solutions to existing problems
+* You can contribute your solutions to any problem
+* Add it as a new file in the format solution_number eg: (`solution2`) in the respective problem folder
+
+## Documentation Contributions
+* You can improve the readme and contributing documentation
 
 ## Note
  
