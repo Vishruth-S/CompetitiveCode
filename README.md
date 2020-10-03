@@ -30,3 +30,6 @@ git push origin branch_name
 
 Create a new pull request from your forked repository  
 Wait for your PR review and merge approval!
+
+
+PS: Star this repo while you're at it :)
