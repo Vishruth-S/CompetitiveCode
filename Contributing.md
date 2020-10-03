@@ -23,8 +23,12 @@ You can contribute to this repo in any of the following ways
 ## Documentation Contributions
 * You can improve the readme and contributing documentation
 
-## Note
+## Important Note
 
-The idea is to collect different solutions/logic in different languages to some of the popular CP questions.
-Please add the Logic of solving the problem either in the form of comments along with the code or as logic at the beginning of the code. This can help to understand the solution, which is the very idea of this repo. Hence simply copy-pasting is not encouraged.
+The idea is to collect different solutions/logic in different languages to some of the popular CP questions.  
+Please add the Logic of solving the problem either in the form of comments along with the code or as logic at the beginning of the code.
+**More emphasis is given on understanding the logic used to get the solution rather than the code itself.** Hence simply copy-pasting code is not encouraged.
 Solutions must also be properly indented.
+
+Keep the above points in mind before sending a Pull Request.  
+Happy contributing :)
