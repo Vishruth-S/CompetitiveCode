@@ -42,3 +42,8 @@ int main()
     return 0;
 }
 
+// Sample test-case:
+// I/P: 0 3 4 2
+// O/P: YES
+// I/P: 0 2 5 3
+// O/P: NO
