@@ -1,7 +1,7 @@
 # CompetitiveCode
 This is a repo for interesting Competitive Coding problems.
 
-Any problem from any platform can be added in the respective folder. If you are creating you're own problem, add it into "misc" folder
+Any problem from any platform can be added in the respective folder. If you are creating your own problem, add it into "misc" folder
 
 Any language can be used (preferred: C,C++,Python,Java,Javascript)
 
