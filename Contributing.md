@@ -25,6 +25,6 @@ You can contribute to this repo in any of the following ways
 
 ## Note
  
-The idea is to collect different solutions/logic in different languages to some of the popular CP questions. 
-Please add the Logic of solving the problem either in the form of comments along with the code or as logic at the beginning of the code. This can help to understand the solution, which is the very idea of this repo. Hence simply copy-pasting is not encouraged
-Solutions must be properly indented. 
+The idea is to collect different solutions/logic in different languages to some of the popular CP questions.   
+Please add the Logic of solving the problem either in the form of comments along with the code or as logic at the beginning of the code. This can help to understand the solution, which is the very idea of this repo. Hence simply copy-pasting is not encouraged.
+Solutions must also be properly indented. 
