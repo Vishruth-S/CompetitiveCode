@@ -1,12 +1,11 @@
-# Logic
-# The required solution can be obtained by simply getting the integers values and adding the two values
-# Scanner is used to get the input value as integer, return value must be specified to get the results of the sum of two integers
+// Logic
+// The required solution can be obtained by simply getting the integers values and adding the two values
+// Scanner is used to get the input value as integer, return value must be specified to get the results of the sum of two integers
 
 public class Solution {
 
     static int solveMeFirst(int a, int b) {
-      // Hint: Type return a+b; below
-     return a+b; 
+     return a+b;   //returning sum
 	}
 
  public static void main(String[] args) {
