@@ -10,6 +10,7 @@ import sys
 def permutationEquation(p):
     results = []
     for x in range(1, len(p) + 1):
+        # get the index of the index of x.
         results.append(p.index(p.index(x) + 1) + 1)
     return results
 
