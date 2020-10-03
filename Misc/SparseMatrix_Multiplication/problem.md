@@ -6,10 +6,10 @@ Given 2 [sparse matrices](https://en.wikipedia.org/wiki/Sparse_matrix), Convert 
 
 
 ## Input format
-first line input number of rows(m1) and columns(n1) of matrix1   
-Second line input number of rows(m2) and columns(n2) of matrix2   
-Third line contains m1*n1 space seperated integers = elements of matrix1   
-Fourth line contains m2*n2 space seperated integers = elements of matrix2   
+first line input number of rows(m1) and columns(n1) of matrix1     
+Second line input number of rows(m2) and columns(n2) of matrix2     
+Third line contains m1xn1 space seperated integers = elements of matrix1     
+Fourth line contains m2xn2 space seperated integers = elements of matrix2      
 
 ## Output format
 Print the triple representation of the product of the two sparse matrices.    
@@ -17,10 +17,12 @@ If the dimensions don't match for calculating product, print "Cannot multiply"
 
 ## Constraints
 * All triple form representations MUST be sorted Row-wise ascending (as in examples below)   
-* The code for multiplication must be strictly using the triple form. Direct multiplication of given matrices is NOT ALLOWED.  
+* The code for multiplication must be strictly using the triple form. DIRECT MULTIPLICATION of given matrices is NOT ALLOWED.  
 
 
-# For example: Consider the given input   
+### For example: Consider the given input   
+### Example 0
+Input
 ```
 3 3
 3 3
@@ -203,3 +205,7 @@ Cannot Multiply
 Explanation  
 The given Dimensions don't support multiplication
 
+
+## Note
+As mentioned in the constraints, any code/logic must involve strictly using the triple form for multiplication.  
+DIRECT MULTIPLICATION of given matrices is NOT ALLOWED.  
