@@ -40,7 +40,7 @@ Wait for your PR review and merge approval!** 🎉🎉
 
 
 ##### **Important links to watch out for**
-  * 🔗 [_**Ways of Contributing**_](Contributing.md)
+  * 🔗 [_**Ways of Contributing**_](CONTRIBUTING.md)
   * 🔗 [_**Code of Conduct**_](CODE_OF_CONDUCT.md)
 
 PS: Star this repo while you're at it :) ⭐⭐⭐⭐⭐
