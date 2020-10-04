@@ -1,3 +1,4 @@
+Link to question: https://leetcode.com/problems/count-square-submatrices-with-all-ones/
 Given a m * n matrix of ones and zeros, return how many square submatrices have all ones.
 
  
