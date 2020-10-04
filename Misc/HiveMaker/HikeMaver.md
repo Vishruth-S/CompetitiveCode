@@ -11,7 +11,9 @@ Return an array consisting of: ```How many hexagons you made, How many sticks we
 - ```HiveMaker(7)```, returns [1, 6, 1]
 - ```HiveMaker(19)```, returns [4, 19, 0]
 - ```HiveMaker(23)```, returns [5, 23, 0]
-- ```HiveMaker(54)```, returns [12, 54, 0]
+- ```HiveMaker(54)```, returns [12, 51, 3]
+- ```HiveMaker(100)```, returns [24, 99, 1]
+- ```HiveMaker(67)```, returns [16, 67, 0]
 
 For the first testcase, it returns [1, 6, 1] because 1 hexagon may be formed with 6 sticks, then 1 stick leftover.
 For the second testcase, it returns [4, 19, 0] because 4 hexagons may be formed with 19 sticks, then 0 will be leftover.
