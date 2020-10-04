@@ -1,6 +1,6 @@
 
 #Count of vessels completely filled after a given time
-
+PROBLEM LINK: https://www.geeksforgeeks.org/count-of-vessels-completely-filled-after-a-given-time/
 
 Given two integers N and T denoting the number of levels and the number of seconds respectively, the task is to find the number of completely filled vessels after T seconds under given conditions:
 
