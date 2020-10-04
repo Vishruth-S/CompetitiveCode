@@ -1,6 +1,6 @@
 class Solution {
     public int countSquares(int[][] matrix) {
-        int i=0,j=0,k=0,m=0,n=0,sm=0,t=0,b=0,c=0;
+        int i=0,j=0,k=0,m=0,n=0,sm=0;
         m=matrix.length;
         n=matrix[0].length;
         int h=Math.min(m,n);
