@@ -9,6 +9,8 @@ Add any problem from any platform in their respective folder. If you are creatin
 
 Any language can be used (preferred: C,C++,Python,Java,Javascript) ✨🔥
 
+Refer [CONTRIBUTING.MD](https://github.com/Vishruth-S/CompetitiveCode/blob/main/CONTRIBUTING.md) before sending a PR.
+
 
 ## Getting Started
 
