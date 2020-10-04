@@ -9,7 +9,7 @@ public:
         
         for(int i=0;i<dp.size();i++){   //examining first column
             if(obstacleGrid[i][0]!=1 && flag1==0){
-                dp[i][0]=1;
+                dp[i][0]=1; //cells in the starting column can be visited only by one way
             }
             else{
                 dp[i][0]=0; //since there is an obstacle in the way, we cannot reach this point
@@ -18,7 +18,7 @@ public:
         }
         for(int i=0;i<dp[0].size();i++){    //examining first row
             if(obstacleGrid[0][i]!=1 && flag2==0){
-                dp[0][i]=1;
+                dp[0][i]=1; //cells in the starting row can be visited only by one way
             }
             else{
                 dp[0][i]=0; //since there is an obstacle in the way, we cannot reach this point
@@ -35,7 +35,7 @@ public:
                     dp[i][j]=0;        // since it is an obstacle, it cannot be reached
                 }
                 else{
-                    dp[i][j]=dp[i-1][j]+dp[i][j-1]; 
+                    dp[i][j]=dp[i-1][j]+dp[i][j-1]; // no. of ways of reaching current cell= no. of ways of reaching the cell above+number of ways of reaching left cell
                 }
             }
         }
