@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main(){
+    char s[100000];
+    int count[26]={0},sum=0,i=0;
+    scanf("%[a-z]s",s);
+    while(s[i]!='\0'){
+        count[s[i]-'a']++;
+        i++;
+    }
+    for(i=0;i<26;i++)
+        sum+=count[i]%2;
+    if(sum>1)
+        printf("NO");
+    else
+        printf("YES");
+    return 0;
+}
