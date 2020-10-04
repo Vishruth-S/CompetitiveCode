@@ -21,12 +21,14 @@ Examples:
     Explanation:
     View of Structure with N = 3 and at a time T = 2 after the tap has been opened
     
-    <img style="float: right;" src="assets/out.png" alt="example" />
+   <img style="float: right;" src="assets/out.png" alt="example" />
 Input: N = 3, T = 4
 Output: 3
 Explanation:
 View of Structure with N = 3 and at a time T = 4 after the tap has been opened
 <img style="float: right;" src="assets/out2.png" alt="example" />
+
+
 More Explanation :
 Naive Approach: The simplest approach to solve the problem is to check if it is possible to completely fill x vessels in T seconds or not. If found to be true, check for x+1 vessels and repeat so on to obtain the maximum value of x.
 Time Complexity: O(N3)
