@@ -1,5 +1,10 @@
 #!/bin/python3
 
+#First we count the number of birds of types 1-5 by using the count function in python
+#Then we form a list of the counts we got
+#Then we find the index of the list with maximum count(the required as per the problem) then we add 1 to the index beacause when we are indexing in the list it starts from 0 
+#means if answer is 3 it will return 2, hence we add 1 to balance that out.
+
 import math
 import os
 import random
