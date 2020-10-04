@@ -3,6 +3,11 @@
 '''
 Author : Shubhanshu Jain;
 '''
+#This is a simple problem
+#Just take input of n, a, b, c and list in next line
+#First we take Bob go to his room and change as minimum abs(a-b)+c
+#Then we check from every room where bob can go and change
+
 
 import math
 import random;
