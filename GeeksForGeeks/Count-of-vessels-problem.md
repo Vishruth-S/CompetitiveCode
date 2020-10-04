@@ -16,10 +16,10 @@ Assumptions:
 
 Examples:
 
-    Input: N = 3, T = 2
-    Output: 1
-    Explanation:
-    View of Structure with N = 3 and at a time T = 2 after the tap has been opened
+   Input: N = 3, T = 2
+   Output: 1
+   Explanation:
+   View of Structure with N = 3 and at a time T = 2 after the tap has been opened
     
    <img style="float: right;" src="assets/out.png" alt="example" />
 Input: N = 3, T = 4
@@ -37,7 +37,7 @@ Auxiliary Space: O(1)
 Efficient Approach: 
 The above approach can be optimized using Dynamic Programming. Follow the steps below to solve the problem:
 
-    Store the vessel structure in a Matrix, say M, where M[i][j] denotes the jth vessel in the ith level.
+   Store the vessel structure in a Matrix, say M, where M[i][j] denotes the jth vessel in the ith level.
     For any vessel M[i][j], the connected vessels at an immediately lower level are M[i + 1][j] and M[i + 1][j + 1].
     Initially, put all water in the first vessel i, e. M[0][0] = t.
     Recalculate the state of the matrix at every increment of unit time, starting from the topmost vessel i, e. M[0][0] = t.
