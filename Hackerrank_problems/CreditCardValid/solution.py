@@ -1,3 +1,7 @@
+# Simple Python Program which mainly satisfies the required conditions on the Problem Statement using IF statements
+# Shows the implementation of array to string and string methods
+
+# Function which defines the params for validity of a credit card
 def credit_card_check(string):
     number_str = string.replace('-', '')
     if not len(number_str) == 16:
@@ -22,6 +26,7 @@ def credit_card_check(string):
         return
     print("Valid")
 
+# Loop for iterating over number of test cases
 for _ in range(int(input())):
     string = str(input())
     credit_card_check(string)
