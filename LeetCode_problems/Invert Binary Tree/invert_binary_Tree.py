@@ -27,15 +27,19 @@ def inorder(root):
         inorder(root.left)
         print(root.val)
         inorder(root.right)
+        
+# invert of binary tree means left elemtns goes to right and right element goes to left
+# this is the most simple problem but sometimes confused when they see it first time
+# so here is the solution
 
 def invertTree(root):
 
     if root is None:
         return 0
-    # invert the elements
+    # invert the elements simple swapping
     root.left , root.right = root.right , root.left
 
-    # left Invert
+    # left Invert 
     root.left = invertTree(root.left)
 
     # right invert
