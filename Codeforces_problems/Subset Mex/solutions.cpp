@@ -1,3 +1,8 @@
+// Logic-since the mex subset depends upon the number of occurence of smaller numbers such that if we start from zero and check for the 
+// numer of times the element occured, eg if a number occurs 0 time it will be present then its sum will be 2 times that number and if occurs
+// once it will be counted as one of the numbers, there fore we are storing occurences of each number in a map then start cheking its occurence, 
+// ie if present then its count-- and if it is 0 then answer = 2*(that num),we do it once for one number and once for other.
+
 #include<bits/stdc++.h>
 using namespace std;
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
