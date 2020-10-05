@@ -35,6 +35,6 @@ Read the following points carefully
 * The logic MUST be in the `solution` file and NOT in `problem` file
 * **More emphasis is given on understanding the logic used to get the solution rather than the code itself.** Hence simply copy-pasting code is not encouraged.  
 
-Any PR that doesn't adhere with the above mentioned points WILL NOT be accepted.
+As long as your PR adheres with all the points mentioned above, you're good to gp
 
 Happy contributing :)
