@@ -1,4 +1,5 @@
 /*
+AUTHOR: github.com/Sanjay235
 LOGIC:
 ==========================================================================================
 1. As the set of intervals provided are non-overlapping and sorted,
