@@ -2,7 +2,6 @@
 Given an array of integers A, which is then assumed to be making a histogram with values of indexes in the array.
 The aim is to find the largest possible rectangle we could find from this histogram.
 This solution is a OPTIMAL solution written in cpp , similar concept could be applied to write this program in other languages.
-This file only includes the helper function, you will need to write your own driver function if you're running the program on your local machine.
 TIME COMPLEXITY: O(n)
 SPACE COMPLEXITY: O(n)
 APPROACH:
@@ -19,7 +18,11 @@ NOTE: for first element i.e. at index '0' left boundary is presumed -1
 This fits well with our width formula
 */
 
-largestRectangleArea(vector<int> &A) {
+#include <bits/stdc++.h>
+using namespace std;
+
+// helper function
+int largestRectangleArea(vector<int> &A) {
     int len = A.size();
     if(len == 0) return 0;
     
@@ -66,3 +69,19 @@ largestRectangleArea(vector<int> &A) {
     }
     return rel;
 }
+
+// driver function
+int main() {
+    int N;
+    // Enter the number of elements you want to register
+    cin>>N;
+    vector<int> input(N);
+    // Input
+    for(int i=0; i < N; i++) {
+        cin>>input[i];
+    }
+    // Answer
+    cout<<largestRectangleArea(input);
+    return 0;
+}
+
