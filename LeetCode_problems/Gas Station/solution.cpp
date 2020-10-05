@@ -29,12 +29,14 @@ public:
         
         int n = gas.size();
         
+	// Step - 1
         int surplus = 0, deficit = 0, start = 0;
         
         for(int i = 0; i < n; ++i){
             
             surplus += (gas[i] - cost[i]);
             
+	    // Step - 2
             if(surplus < 0){
                 deficit -= surplus;
                 surplus = 0;
@@ -42,9 +44,11 @@ public:
             }
         }
         
+	// Step - 3 (a)
         if(surplus < deficit)
             return -1;
         
+	// Step - 3 (b)
         return start;
     }
 };
