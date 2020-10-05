@@ -1,5 +1,3 @@
-package Assignments.Aug17;
-
 public class PalPartition {
 
 	public static int PalindromePartitioning(String str, int si, int ei) {
