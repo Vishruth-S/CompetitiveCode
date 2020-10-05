@@ -5,13 +5,18 @@ There are a number of people who will be attending ACM-ICPC World Finals. Each o
 
 For example, given three attendees' data as follows:
 > 10101
+
 > 11110
+
 > 00010
 
 These are all possible teams that can be formed:
 > Members Subjects
+
 > (1,2)   [1,2,3,4,5]
+
 > (1,3)   [1,3,4,5]
+
 > (2,3)   [1,2,3,4]
 
 In this case, the first team will know all 5 subjects. They are the only team that can be created knowing that many subjects.
@@ -23,6 +28,7 @@ Each of the next `n` lines contains a binary string of length `m`. If the i<sup>
 
 **Constraints:**
 - 2 ≤ n ≤ 500
+
 - 1 ≤ m ≤ 500
 
 **Output Format:**
@@ -31,22 +37,33 @@ On the second line, print the number of ways to form a 2-person team that knows 
 
 **Sample Input:**
 > 4 5
+
 > 10101
+
 > 11100
+
 > 11010
+
 > 00101
 
 **Sample Output:**
+
 > 5
+
 > 2
 
 **Explanation:**
 Calculating topics known for all permutations of 2 attendees we get:
 > (1, 2) → 4
+
 > (1, 3) → 5
+
 > (1, 4) → 3
+
 > (2, 3) → 4
+
 > (2, 4) → 4
+
 > (3, 4) → 5
 
 The 2 teams (1, 3) and (3, 4) know all 5 topics which is maximal.
