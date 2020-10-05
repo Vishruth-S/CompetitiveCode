@@ -1,11 +1,6 @@
 #!/bin/python3
-
-import math
 import os
-import random
-import re
-import sys
-
+"""Logic Used for solving the problem is in this function"""
 def kangaroo(x1, v1, x2, v2):
     if v1==v2:
         return "NO"
