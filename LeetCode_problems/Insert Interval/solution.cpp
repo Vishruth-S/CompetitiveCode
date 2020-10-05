@@ -22,8 +22,8 @@ LOGIC:
 ==========================================================================================
 
 Time Complexity: O(n), where n - number of input intervals.
-Space complexity: O(1), no additional variables are used except for the output vector 
-							which will not considered as it has to be returned.
+Space complexity: O(1), no additional variables are used except for the output vector, 
+			which will not considered as it has to be returned.
 
 ==========================================================================================
 */
@@ -34,26 +34,26 @@ public:
         
         int index = 0;
         
-		// Step - 2
+	// Step - 2
         while(index < intervals.size() && intervals[index][1] < newInterval[0]){
             res.push_back(intervals[index++]);
         }
         
-		// Step - 3
+	// Step - 3
         while(index < intervals.size() && intervals[index][0] <= newInterval[1]){
             // Step - 3 (a)
-			newInterval[0] = min(newInterval[0], intervals[index][0]);
+	    newInterval[0] = min(newInterval[0], intervals[index][0]);
             
-			// Step - 3 (b)
-			newInterval[1] = max(newInterval[1], intervals[index][1]);
+	    // Step - 3 (b)
+	    newInterval[1] = max(newInterval[1], intervals[index][1]);
             
-			index++;
+	    index++;
         }
         
-		// Step - 4
+	// Step - 4
         res.push_back(newInterval);
         
-		// Step - 5
+	// Step - 5
         while(index < intervals.size()){
             res.push_back(intervals[index++]);
         }
