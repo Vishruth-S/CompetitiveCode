@@ -8,6 +8,8 @@ Created on Mon Oct  5 2020
 
 The input strings are both non-empty and contains only characters 1 or 0.'''
 
+# Approach : 1) basic binary conversion into int then compute the sum and then convert again into binary (Time complexity= O(N+M) || space complexity = O(1)
+#            2) Bit manipulation (Time complexity= O(N+M) || space complexity = O(max(n,m))
 
 
 # Solution : conversion method

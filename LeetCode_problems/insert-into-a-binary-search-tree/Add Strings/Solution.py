@@ -4,7 +4,8 @@ Created on Mon Oct  5 2020
 
 @author: Shrey1608
 """
-'''Approach : 1) recursion(Time complexity= O(H)(h is height of the tree)'''
+
+# Approach : 1) we will use recursion technique to insert the element into a bst(Time complexity= O(H)(h is height of the tree)
 
 
 

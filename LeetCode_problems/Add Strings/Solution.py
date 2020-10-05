@@ -6,6 +6,9 @@ Created on Mon Oct  5 2020
 """
 ''' Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.'''
 
+# Approach : 1) List method-conversion to list and then adding (Time complexity= O(n) || space complexity = O(1))
+#            2) Elementary math- carry method(Time complexity= O(len(string)) || space complexity = O(1))
+
 
 
 #Solution 1: List method

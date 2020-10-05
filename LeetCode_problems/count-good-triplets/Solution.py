@@ -4,7 +4,7 @@ Created on Mon Oct  5 2020
 
 @author: Shrey1608
 """
-'''Approach : 1) using 3 loops for checking the condition(Time complexity O(n^3)| space complexity O(1))'''
+# Approach : 1) using 3 loops for checking the condition(Time complexity O(n^3)| space complexity O(1))
 
 
 

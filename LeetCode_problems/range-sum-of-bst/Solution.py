@@ -4,7 +4,7 @@ Created on Mon Oct  5 2020
 
 @author: Shrey1608
 """
-''' # Approach : 1) Inorder traversal and range(Time complexity= O(H)(h is height of the tree)'''
+# Approach : 1) Inorder traversal (DFS) and range(Time complexity= O(H)(h is height of the tree)
 
 
 
