@@ -14,26 +14,9 @@ class LinkedList:
             print(printval.data)
             printval = printval.next
 
-# this program is using map we check wheather a node is present in map or not
-
-'''
-def iscycle(list):
-    list = list.head 
-    map = {}
-    while list is not None:
-    
-    # here we are checking for node address not node data
-    # so thats why we write list not list.data
-    
-        if list in map:
-            return True
-        map[list] = True
-        list = list.next
-    return False
-'''
-
-# Another Approach :
 # using fast and Slow Pointer
+# logic : fast pointer take 2 step and slow pointer take 1 step then we have to loop through till fast become None and next of fast become None.
+# if at some point slow and fast are matched then simply we return True ans says linkedlist contains cycle otherwise false
 
 # we can also find mid point of linked list :
 # when fast reach to last node at that time slow is at mid point of LL
