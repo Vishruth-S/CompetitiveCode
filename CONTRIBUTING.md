@@ -26,7 +26,7 @@ You can contribute to this repo in any of the following ways
 ## Documentation Contributions
 * You can improve the readme and contributing documentation
 
-## Important Note: READ THIS BEFORE SENDING A PR
+## Important Note: READ THIS BEFORE SENDING A Pull Request
 
 The idea is to collect different solutions/logic in different languages to some of the popular CP questions.  
 Read the following points carefully
@@ -35,6 +35,6 @@ Read the following points carefully
 * The logic MUST be in the `solution` file and NOT in `problem` file
 * **More emphasis is given on understanding the logic used to get the solution rather than the code itself.** Hence simply copy-pasting code is not encouraged.  
 
-Any PR that doesn't adhere with the above mentioned points WILL NOT be accepted.
+As long as your PR adheres with all the points mentioned above, you're good to go :sparkles:
 
-Happy contributing :)
+Happy contributing :smiley:

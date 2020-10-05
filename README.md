@@ -5,9 +5,10 @@
 
 This is a repo for interesting Competitive Coding problems. 📜💻 
 
-Add any problem from any platform in their respective folder. If you are creating your own problem, add it into "misc" folder
+If you've got an interesting problem from any Competitve coding platform,add it in their respective folder. If you are creating your own problem, add it into "misc" folder
 
-Any language can be used (preferred: C,C++,Python,Java,Javascript) ✨🔥
+Any language can be used for the solution (preferred: C,C++,Python,Java,Javascript) ✨🔥  
+The solution must be well documented explaining the logic used by adding appropriate comments
 
 Refer [CONTRIBUTING.MD](https://github.com/Vishruth-S/CompetitiveCode/blob/main/CONTRIBUTING.md) before sending a PR.
 
