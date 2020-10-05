@@ -1,5 +1,6 @@
-# # PROBLEM STATEMENT
-#link to the problem => https://codeforces.com/problemset/problem/1307/A
+## PROBLEM STATEMENT
+# link to the problem => https://codeforces.com/problemset/problem/1307/A
+
 The USA Construction Operation (USACO) recently ordered Farmer John to arrange a row of n haybale piles on the farm. The i-th pile contains ai haybales.
 
 However, Farmer John has just left for vacation, leaving Bessie all on her own. Every day, Bessie the naughty cow can choose to move one haybale in any pile to an adjacent pile. 
