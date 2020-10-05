@@ -1,4 +1,5 @@
 # # PROBLEM STATEMENT
+# link to the problem => https://codeforces.com/contest/716/problem/A
 ZS the Coder is coding on a crazy computer. If you don't type in a word for a c consecutive seconds, everything you typed disappear!
 
 More formally, if you typed a word at second a and then the next word at second b, then if b - a ≤ c, just the new word is appended to other words on the screen. If b - a > c, then everything on the screen disappears and after that the word you have typed appears on the screen.
