@@ -1,4 +1,4 @@
-## PROBLEM STATEMENT
+# # PROBLEM STATEMENT
 # link to the problem => https://codeforces.com/problemset/problem/1307/A
 
 The USA Construction Operation (USACO) recently ordered Farmer John to arrange a row of n haybale piles on the farm. The i-th pile contains ai haybales.
