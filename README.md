@@ -46,4 +46,4 @@ Wait for your PR review and merge approval!** 🎉🎉
 
 PS: Star this repo while you're at it :) ⭐⭐⭐⭐⭐
 
-**Stay Awesome !!**
+**Stay Awesome !!** :smiley:
