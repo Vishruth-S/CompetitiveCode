@@ -3,7 +3,7 @@
 import os
 import sys
 
-#check() return maximum price of the USB drive which is less than of equal to our budget
+#check() return maximum price of the USB drive which is less than or equal to our budget
 #This uses the binary search approach to find the required  maximum value
 def check(arr,start,end,n1,max):
     if end==start+1 or end==start:
