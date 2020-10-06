@@ -9,7 +9,7 @@ for x in range(1 , int(input()) + 1):
         if num - abs(i) != num:
             lis.append(num - abs(i))
     lis.append(0)
-    print(lis)
+
 
     # This list will contain values from [1 to (num - 1) and then (num -1) to 0]
             # For example for num
