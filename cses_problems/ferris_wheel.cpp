@@ -1,3 +1,17 @@
+/*
+Approach:
+---------------------------------------------------------------------------------------------------------------------------------------------------
+We must initialize a variable count the keeps the track of minimum godolas required
+First we must sort the array in non-decreasing order
+After that, as the gondola must not exceed its weight limit x , we take one element from the front and other from the back and add them.
+If the addition exceeds x(the limit) we must ignore and move to second element and so on and increment the count.
+Else increment the count and move the one step forward to the next element fron front and back.
+
+
+Ultimately print the count variable which stores the number of gondolas required.
+
+*/
+
 // n---> stores the array input or the weights of individual riding.
 // x----> stores the weight limit of gondola.
 
