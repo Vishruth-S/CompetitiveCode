@@ -5,6 +5,9 @@ int main() {
          s (the amount of money Monica has),  
          n (the number of keyboard brands) and  
          m (the number of USB drive brands). 
+         loop over the number of keyboard brands and the number of USB drive brands
+         then if the keyboard and usb is smaller than or equal the amount of money Monica has then 
+         it will be equal to the maximum of the result before the equal sign and keyboard + usb
     */
     int s, n, m, a, res = -1, keyboard[1001], usb[1001];
 
