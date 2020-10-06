@@ -1,4 +1,5 @@
 #! /usr/bin/bash
+# accept two numbers with each read command and compare nums with conditional operators
 read num1
 read num2
 if [[ $num1 > $num2 ]]

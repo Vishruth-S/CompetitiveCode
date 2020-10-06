@@ -23,3 +23,4 @@ Sample Output
 
 YES
 
+Link: https://www.hackerrank.com/challenges/bash-tutorials---getting-started-with-conditionals/problem

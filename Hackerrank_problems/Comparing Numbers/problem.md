@@ -51,3 +51,4 @@ X is equal to Y
 
 X is less than Y  
 
+Link: https://www.hackerrank.com/challenges/bash-tutorials---comparing-numbers/problem
