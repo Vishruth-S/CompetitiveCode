@@ -37,7 +37,7 @@ ROW  COL  VALUE
 1    2     3
 2    1     4
 2    2     10
-2    3     15
+2    3     16
 3    2     9
 ```
 
@@ -91,14 +91,14 @@ ROW  COL  VALUE
 1    2     3
 2    1     4
 2    2     10
-2    3     15
+2    3     16
 3    2     9
 ```
 
 The given triple form, when converted into normal sparse matrix yields
 ```
 0    3     0
-4    10    15
+4    10    16
 0    9     0
 ```
 
