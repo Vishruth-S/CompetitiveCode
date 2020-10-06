@@ -1,3 +1,39 @@
+//Observations
+// 1. An obvious solution would be to do DFS, but it is O(nmq)O(nmq).
+
+// 2. Firstly we focus on answering a single question.
+
+// We represent our input with two graphs (one for cells with temperature less than X and other for temperatures greater than X),
+// in which we add an edge between two neigbouring cells.
+
+// As it is a subgraph of the grid graph, this means that this graph is planar and thus we may apply Euler's formula on both graphs:
+
+// V1+F1=E1+C1V1+F1=E1+C1, where V1 is the number of vertices in graph 1, F1 is the number of faces in graph 1, …….
+
+// However, some faces are not interesting, namely the 2×22×2 square of adjacent cells. Let Q1Q1 be the number of such squares.
+
+// Similarly, V2+F2=E2+1+C2V2+F2=E2+1+C2.
+
+// We see that interesting faces in graph 1 represent connected components in graph 2 that cannot reach the border, and vice-versa. In this way, if we subtract the equations, we get C1−F1+F2−C2=V1−E1+E2−V1+Q1−Q2C1−F1+F2−C2=V1−E1+E2−V1+Q1−Q2. We can observe that, because of this interpretation, the LHS of the equation is the answer.
+
+// We have to devise an algorithm to calculate efficiently the number of squares/edges. Letś calculate horizontal edges, and do the same for vertical edges.
+
+// Firstly, if ai+bj≥Xai+bj≥X and ai+bj+1≥Xai+bj+1≥X then ai+min(bj,bj+1)≥Xai+min(bj,bj+1)≥X. So we create array BB such that Bj=min(bj,bj+1)Bj=min(bj,bj+1).
+
+// The number of edges is the number of indexes i,ji,j such that ai+Bj≥Xai+Bj≥X.
+
+// This trick can also be used to calculate edges in cold regions.
+
+// To have a more efficient solution, we must calculate faster the number of indexes i,ji,j such that ai+Bj≥Xai+Bj≥X.
+
+// We can thus apply fast Fourier transform to arrays representing frequencies of aa and BB and multiply them, inverting the Fourier transform in order to get the answers quickly in O(1) with prefix sums.
+
+// By doing this we can calculate the number of edges, and the number of 2×22×2 squares can be calculated in a similar way.
+
+// The final complexity is, thus, O((n+m)log(n+m)+max(ai,bi)log(max(ai,bi)))
+
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
