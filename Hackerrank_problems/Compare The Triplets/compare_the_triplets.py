@@ -10,11 +10,14 @@ def func(a, b):
 
     for i in range(len(a)):
         if a[i] > b[i]:
+            # If the score of a is greater then b then increase score of alice by 1.
             Alice += 1
             
         elif b[i] > a[i]:
+            # If the score of b is greater then a then increase score of bob by 1.
             Bob += 1
         
+    # At last print the score for Alice and Bob respectively.
     print(f"{Alice} {Bob}")
 
 
