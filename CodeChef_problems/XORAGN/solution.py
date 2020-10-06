@@ -6,5 +6,5 @@ for a0 in range(t):
     a=list(map(int,input().split()))
     res=0
     for i in a:
-        res=res^i
-    print(2*res)
+        res=res^i #xorring all the values present
+    print(2*res) #doubling the result obtained

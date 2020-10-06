@@ -3,6 +3,7 @@
 #https://www.codechef.com/problems/CHEFINSQ
 from math import *
 
+#Function of printing nCr values
 def printNcR(n, r):
     p = 1
     k = 1
@@ -23,18 +24,19 @@ def printNcR(n, r):
 t=int(input())
 for tc in range(t):
     n,k=map(int,input().split())
-    a=list(map(int,input().split()))
+    a=list(map(int,input().split())) #input of list
     if(len(set(a))==n):
         print(1)
     else:
-        dic={}
+    	#storing the occurences of the values in a dictionaries
+        dic={} 
         for i in a:
             if i not in dic.keys():
                 dic[i]=1
             else:
                 dic[i]+=1
         b=list(set(a))
-        b=sorted(b)
+        b=sorted(b) #sorting the array
         
         i=0
         sumfreq=0
