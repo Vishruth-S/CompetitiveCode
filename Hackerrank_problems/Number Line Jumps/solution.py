@@ -1,6 +1,10 @@
 #!/bin/python3
 import os
 """Logic Used for solving the problem is in this function"""
+"""
+   The function takes four inputs.The first condition where both the velocities are same, it will not meet again.
+   The second condition is where we equate x1 + v1*t = x2 + v2*t.  as the time should be greater then 0, the resulting condition is (x1-x2)/(v2-v1) > 0
+"""
 def kangaroo(x1, v1, x2, v2):
     if v1==v2:
         return "NO"
