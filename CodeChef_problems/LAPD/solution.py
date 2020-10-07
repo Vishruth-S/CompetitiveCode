@@ -12,6 +12,4 @@ for tc in range(int(input())):
                 if(i*i<((j-1)*(k-1))): #checking for all values possible b^2<a*c
                     temp+=1
                     ct+=1 #keeping the count of the values
-                    #print(j,i,k)
-        print(temp)
     print(ct%mod) #mod the result as mentioned in the question
