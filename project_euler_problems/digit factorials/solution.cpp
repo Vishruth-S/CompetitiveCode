@@ -1,5 +1,6 @@
 /*
-Pretty straight forward. The upper bound could probably be fine tuned but going until the number exceeds the maximum possible sum of the factorials of its digits seemed reasonable enough (7 * 9!). Calculating and storing the factorials of digits 0 - 9 saves having to recompute the same factorials over and over.
+Pretty straight forward. The upper bound could probably be fine tuned but going until the number exceeds the maximum possible sum of the factorials of its digits seemed reasonable enough (7 * 9!).
+Calculating and storing the factorials of digits 0 - 9 saves having to recompute the same factorials over and over.
 */
 #include <stdio.h>
 #include <stdlib.h>
