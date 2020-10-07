@@ -4,7 +4,7 @@ Created on Mon Oct  5 2020
 
 @author: Shrey1608
 """
-# Approach :1) Recursive inorder traversal(Time complexity= O(N)(h is height of the tree)
+# Approach :1) Recursive inorder traversal i.e first do a inorder traversal which is a method of Dfs and then just follow the recursion(Time complexity= O(N)(h is height of the tree)
 
 #Solution : 1)Recursive inorder traversal
 class Solution:

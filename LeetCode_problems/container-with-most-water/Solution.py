@@ -3,6 +3,8 @@
 Created on Mon Oct  5 2020
 
 @author: Shrey1608
+"""
+
 # Approach : 1) Brute force is basically using 2 for loops to run the code  (Time complexity= O(n^2) || space complexity = O(1))
 #            2) Two pointer method is a method in which we take to elements i.e 1st and last and then  compare it to each other to get the desired value (Time Time complexity= O(n) || space complexity = O(1))
 #              
