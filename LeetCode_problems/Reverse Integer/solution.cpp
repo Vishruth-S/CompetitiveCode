@@ -1,4 +1,8 @@
-class Solution {
+/*
+    Created on Tue Oct  6 2020
+    @author: lusmoura
+*/
+
 /*
 We use an auxiliary variable to store the reversed number.
 The original number is shifited to the left (by dividing by 10) so we can get the digits.
@@ -35,6 +39,7 @@ x = x/10 = 1/10 = 0
 Answer: 4321
 */
 
+class Solution {
 public:
     int reverse(int x) {
         long long int reversed = 0;
