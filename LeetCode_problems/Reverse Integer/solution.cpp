@@ -8,7 +8,7 @@ We use an auxiliary variable to store the reversed number.
 The original number is shifited to the left (by dividing by 10) so we can get the digits.
 The auxiliary number is shifited to the right (by multiplying by 10) so we can add the digits.
 
-Exemple:
+Example:
 x = 1234
 aux = 0
 
@@ -37,6 +37,30 @@ aux = aux + digit = 4320 + 1 = 4321
 x = x/10 = 1/10 = 0
 
 Answer: 4321
+
+Example:
+x = 100
+aux = 0
+
+Iteration 1:
+digit = 0
+aux = aux * 10 = 0 * 10 = 0
+aux = aux + digit = 0 + 0 = 0
+x = x/10 = 100/10 = 10
+
+Iteration 2:
+digit = 0
+aux = aux * 10 = 0 * 10 = 0
+aux = aux + digit = 0 + 0 = 0
+x = x/10 = 10/10 = 1
+
+Iteration 3:
+digit = 1
+aux = aux * 10 = 0 * 10 = 0
+aux = aux + digit = 0 + 1 = 1
+x = x/10 = 1/10 = 0
+
+Answer: 1
 */
 
 class Solution {
