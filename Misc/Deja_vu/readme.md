@@ -1,5 +1,5 @@
 # Deja Vu
-![instructions](Instructions)
+![instructions](Instructions.jpg)
 
 # Test Cases
 ## 1 
