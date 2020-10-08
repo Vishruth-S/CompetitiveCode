@@ -13,7 +13,6 @@ arrive is less than depart i.e. arrive date is less than depart date
 def hotel(arrive, depart, K):
         arrive.sort()
         depart.sort()
-        print(arrive,"\n",depart)
         for i in range(len(arrive)):
             if i+K<len(arrive) and arrive[i+K]<depart[i]:
                 return False
