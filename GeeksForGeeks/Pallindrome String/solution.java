@@ -24,7 +24,7 @@ import java.io.*;
 import java.util.Scanner;
 import java.io.*;
 
-public class pallindrome {
+public class solution {
     public static void main(String[] args)
     {
         Scanner in=new Scanner(System.in);
