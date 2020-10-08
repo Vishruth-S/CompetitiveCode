@@ -12,7 +12,7 @@ public class solution {
 
         Scanner in = new Scanner(System.in);
         String s=in.nextLine();
-        int num=convert(s);
+        int num=convert(s);    //convert function returns the corresponding integer
         System.out.println(num);
 
 
@@ -20,14 +20,16 @@ public class solution {
     }
     public static int convert(String s)
     {
-        int sum=0;
+        int sum=0;                     // sum stores the converted integer
         char roman;
         for(int i=0;i<s.length();i++)
         {
-            roman=s.charAt(i);
-            if(roman=='I')
+            roman=s.charAt(i);        //each roman character is assigned in loop 
+            
+            // if statements checking the roman character and adding the corresponding integer value to sum
+            if(roman=='I')            
             {
-                sum+=1;
+                sum+=1;  
                 continue;
             }
             if(roman=='V')
