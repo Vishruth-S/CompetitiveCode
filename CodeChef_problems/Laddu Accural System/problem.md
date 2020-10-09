@@ -1,3 +1,3 @@
 # Laddu Accural System
 
-Problem: https://www.codechef.com/laddu
+Problem: https://www.codechef.com/problems/LADDU
