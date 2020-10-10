@@ -12,7 +12,8 @@ int main()
 	long *b = new long[n];
 	for (int i = 0; i < n; i++)
 		cin >> a[i];
-	for (int i = 1; i < n; i++)
+	b[0] = a[0];
+        for (int i = 1; i < n; i++)
 		b[i] = a[i]+b[i-1];// store cumulative values of a
 	for (int i = 0; i < n; i++)
 	{
