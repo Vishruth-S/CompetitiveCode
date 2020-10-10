@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.Scanner;
+class SpyNumber
+{
+    public static void main()
+    {
+        Scanner scan=new Scanner(System.in);     
+        System.out.println("\fEnter a number to check");
+        int x=scan.nextInt();
+        int a,b,c;
+        a=x/100;
+        b=(x/10)-(a*10);
+        c=x-(a*100)-(b*10);
+        if(a+b+c==a*b*c)
+        System.out.println("Yes, it is a Spy Number");
+        else
+        System.out.println("NO, it's not a Spy Number");
+    }
+}

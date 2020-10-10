@@ -1,0 +1,46 @@
+import java.io.*;
+import java.util.Scanner;
+class StringAnagrams
+{
+    public static void main()throws IOException
+    {
+        Scanner scan=new Scanner(System.in);     
+        System.out.println("\fEnter two statements to compare");
+        String s1=scan.nextLine(),s2=scan.nextLine();
+        s1=s1.trim();
+        s1=s1.toUpperCase();
+        s2=s2.trim();
+        s2=s2.toUpperCase();
+        int a=s1.length(),b=s2.length(),j=b;
+        if(a>=b)
+        j=a;
+        int [] cmp1=new int[26];
+        int [] cmp2=new int[26];
+        int op=0;
+        for(int i=0;i<a;i++)
+        {
+            for(int k=65;k<=90;k++)
+            {
+                if(s1.charAt(i)==k)
+                cmp1[k-65]+=1;            
+            }
+        }
+        for(int i=0;i<a;i++)
+        {
+            for(int k=65;k<=90;k++)
+            {
+                if(s2.charAt(i)==k)
+                cmp2[k-65]+=1;            
+            }
+        }
+        for(int i=0;i<26;i++)
+        {
+            if(cmp1[i]==cmp2[i])            
+            op+=1;  
+            if(op==25)
+            System.out.println("They are anagrams");
+        }
+        if(op!=25)
+        System.out.println("NOT ANAGRAMS");
+    }
+}
