@@ -18,7 +18,7 @@ int main( )
 		cout<<arr[n-1]<<endl;//the doll that is missing
 		else 
 		{
-    /*to check if all the in-between dolls are in pairs*/ 
+                  /*to check if all the in-between dolls are in pairs*/ 
 			for(int i=2;i<n-2;i++)
 			if(arr[i]==arr[i+1])
 			i++;
