@@ -1,0 +1,11 @@
+Q. Check if the given three digit no. is an armstrong number or not.
+
+What is an armstrong number?
+A  number which is equal to the sum of the cubes of it's digits.
+
+
+Ex.
+
+INPUT: 153
+OUTPUT: It is an armstrong number
+LOGIC: 153=1x1x1+5x5x5+3x3x3
