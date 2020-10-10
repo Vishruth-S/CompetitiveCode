@@ -31,3 +31,22 @@ Sample Input
 
 Sample Output
 3
+
+Explanation:
+148 if written 3 times becomes 148148148
+Sum of all digits of 148148148 is 39
+Sum of all digits of 39 is 12
+Sum of all digits of 12 is 3
+Since 3 is a single digit, we will print 3
+
+Sample Input 2
+42 4
+
+Sample Output 2
+6
+
+Explanation:
+42 if written 4 times becomes 42424242
+Sum of all digits of 42424242 is 24
+Sum of all digits of 24 is 6
+Since 6 is a single digit, we will print 6
