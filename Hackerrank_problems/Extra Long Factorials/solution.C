@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main()
 {
     int n,a[500],c=0,temp,i;          //initializing an integer , array, integer c=0, temp,i.
