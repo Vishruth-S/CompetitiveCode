@@ -54,7 +54,7 @@ int main() {
 		long long int res2 = factorial(diffMinus);
 		double result = (double)res /(double) (res1 * res2);
 		long long int totalWays = pow(2, count2Mark);
-		cout << fixed << endl;
+		cout << fixed;
 		cout << setprecision(12);
 		cout << result / (double)totalWays;
 	}
