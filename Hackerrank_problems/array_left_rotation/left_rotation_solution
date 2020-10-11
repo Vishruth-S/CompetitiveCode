@@ -1,0 +1,8 @@
+""" "rotLeft" function take 2 arguments an array(a) and perform (d) left rotations """
+
+
+def rotLeft(a, d):        
+    for i in range(d):    # for loop run for d rotations.
+        z = a.pop(0)      # pop the value of 0 index from the array and store it into z variable.
+        a.append(z)       # append the pop value in the array a.
+    return a              # return the array a.
