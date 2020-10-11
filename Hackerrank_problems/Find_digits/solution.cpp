@@ -4,12 +4,12 @@ using namespace std;
 
 // Complete the findDigits function below.
 int findDigits(int n) {
-	//initialize an int to determine divisor
-    int r =n;
-    int count=0;
-    while(r>0)
-    {
-	// make a formula to get the target result 
+//initialize an int to determine divisor
+int r =n;
+int count=0;
+	
+while(r>0){
+// make a formula to get the target result 
     if(r % 10 != 0 && n % (r % 10) == 0) {
 	//count the unique numbers
 	count++;
