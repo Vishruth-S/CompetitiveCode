@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// calculateMaxMin is helper function for iterate k subArray
+// calculateMaxMin is helper function for iterate k subArray that return max - min
 int calculateMaxMin(vector<int>arr, int start, int k) {
     int maxNum = INT_MIN;
     int minNum = INT_MAX;
@@ -20,13 +20,15 @@ int maxMin(int k, vector<int> arr) {
     // sort asc for more easy unfairness detection
     sort(arr.begin(), arr.end());
     int len = arr.size();
-    int currMaxMin = INT_MAX; // init with max integer value
+    int unfairness = INT_MAX; // init with max integer value
     
     for (int i = 0; i < len - k + 1; i++) {
+        // calculate max min and compare with unfairness value
         int compare = calculateMaxMin(arr, i, k);
-        currMaxMin = min(currMaxMin, compare);
+        unfairness = min(unfairness, compare);
     }
-    return currMaxMin;
+
+    return unfairness;
 }
 
 int main()
