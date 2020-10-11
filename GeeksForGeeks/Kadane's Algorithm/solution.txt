@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t!=0)
+    {
+        int n;
+        cin>>n;
+        int i, e=0, f=INT_MIN, arr[n];
+        for(i=0; i<n; i++)
+        cin>>arr[i];
+        for(i=0; i<n; i++)
+        {
+           e=e+arr[i];
+           if(f<e)
+           f=e;
+           if(e<0)
+           e=0;
+        }
+        cout<<f<<endl;
+        t--;
+        
+    }
+	return 0;
+}
