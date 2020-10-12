@@ -1,3 +1,7 @@
+/*
+In this problem we need to understand how exactly numbers from 1 to n rearrange when we write firstly all odd numbers and after them all even numbers.
+To find out which number stands at position k one needs to find the position where even numbers start and output either the position of the odd number from the first half of the sequence or for the even number from the second half of the sequence.
+*/
 #include <iostream>
 #include <vector>
 #include <string>
