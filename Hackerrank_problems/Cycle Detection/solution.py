@@ -37,7 +37,8 @@ def print_singly_linked_list(node, sep, fptr):
             fptr.write(sep)
 
 def has_cycle(head):
-    """ Function implemented to identify the cycles in a linked list
+    """ 
+    Function implemented to identify the cycles in a linked list
     """
     slow = head
     fast = head
