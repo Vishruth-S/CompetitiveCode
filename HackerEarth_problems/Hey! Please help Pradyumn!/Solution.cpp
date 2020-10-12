@@ -7,7 +7,7 @@ so that all the required string with Prefix is Printed.
 using namespace std;
 #define pb push_back
 #define ll long long int
-class trienode
+class trienode                    //STRUCTURE OF TRIE CONTAINING 2-D CHARACTER MATRIX AND VARIABLE END
 {
   public:
   trienode** children;
@@ -23,7 +23,7 @@ class trienode
   }
 };
  
-void insert(string s,trienode* root)
+void insert(string s,trienode* root)              //INSERTION OF ALL STRINGS IN TRIE
 {
     trienode* curr=root;
     for(int i=0;i<s.size();i++)
@@ -35,28 +35,26 @@ void insert(string s,trienode* root)
             curr->children[index]=new trienode();
         }
         curr=curr->children[index];
-       // cout<<curr<<endl;
+       
     }
     curr->end=0;
 }
  
-void dfs(trienode* root,string s)
+void dfs(trienode* root,string s)                  //DFS TO EXPLORE ALL THE STRINGS FROM END OF PREFIX
 {
     if(root->end==0)
         cout<<s<<endl;
     for(int i=0;i<26;i++)
     {
         char ch=char(i+97);
-        //cout<<root->children[(int)ch]<<endl;
         if(root->children[i])
         {
-            //cout<<ch<<" sxs";
             dfs(root->children[i],s+ch);
         }
     }
 }
  
-bool searchall(string s,trienode* root)
+bool searchall(string s,trienode* root)        //SEARCHINF FOR PREFIX 
 {
     trienode* curr=root;
     for(int i=0;i<s.size();i++)
