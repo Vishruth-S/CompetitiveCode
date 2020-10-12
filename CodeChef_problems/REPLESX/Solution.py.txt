@@ -1,3 +1,4 @@
+
 # cook your dish here
 try:
     t=int(input())
