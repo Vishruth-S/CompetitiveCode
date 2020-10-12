@@ -9,4 +9,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: ''
         pr-message: "Hi there :wave: Congratulations on sending your first Pull request here :sparkles:\n I hope that you have followed the contribution guidlines and added comments to your solution explaining the logic you used :smiley:\nIf not, then please do add it so that your PR can be merged :upside_down_face:\n\n If you have already done it, great job!, you can ignore me and wait for your PR to be reviewed and merged :grinning:"
