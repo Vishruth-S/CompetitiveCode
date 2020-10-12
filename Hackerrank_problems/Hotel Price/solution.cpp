@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
+using namespace std;
 //create an instance for hotel room
 class HotelRoom {
 public:
@@ -21,7 +21,7 @@ class HotelApartment : public HotelRoom {
 public:
     HotelApartment(int bedrooms, int bathrooms) 
     : HotelRoom(bedrooms, bathrooms) {}
-//function to calculate the price of Hotel Apartment
+
     int get_price() {
         return HotelRoom::get_price() + 100;
     }
@@ -30,8 +30,8 @@ public:
 int main() {
     int n;
     cin >> n;
-    vector<HotelRoom*> rooms;
 //loop for inputing room quantities 
+    vector<HotelRoom*> rooms;
     for (int i = 0; i < n; ++i) {
         string room_type;
         int bedrooms;
@@ -43,6 +43,7 @@ int main() {
             rooms.push_back(new HotelApartment(bedrooms, bathrooms));
         }
     }
+
     int total_profit = 0;
 //loop to sum the total profit 
     for (auto room : rooms) {
