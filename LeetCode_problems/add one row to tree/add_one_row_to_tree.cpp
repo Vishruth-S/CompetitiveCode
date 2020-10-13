@@ -12,8 +12,10 @@
 class Solution {
 public:
     TreeNode* addOneRow(TreeNode* root, int v, int d) {
+//check if the value to be added is as the root node
         if(d==1){
             TreeNode*n= new TreeNode(v);
+//make the existing root as the left of the new node
             n->left=root;
             return n;
         }
@@ -24,6 +26,8 @@ public:
         if(root==NULL){
             return;
         }
+// On reaching one level before the required . add node to the left and right of this node and shift the 
+//existing left and right children to the left and right children of the added nodes.
         if(d==depth-1){
             TreeNode* shift = root->left;
             root->left= new TreeNode(v);
@@ -33,6 +37,7 @@ public:
             root->right->right= shift;
         }
         else{
+//find the depth at which nodes need to be inserted
             insert(root->left,v,d+1,depth);
             insert(root->right,v,d+1,depth);
         }
