@@ -16,7 +16,7 @@ def findPoint(px, py, qx, qy):
     return (qx+dis_x , qy+dis_y)
     
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     n = int(input())
 
