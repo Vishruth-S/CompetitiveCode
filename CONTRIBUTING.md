@@ -24,6 +24,7 @@ You can contribute to this repo in any of the following ways
 * Solutions must be properly indented and explained with comments
 
 ## Documentation Contributions
+* You can add useful resources related to CP. Refer issue [#327](https://github.com/Vishruth-S/CompetitiveCode/issues/327)
 * You can improve the readme and contributing documentation
 
 ## Important Note: READ THIS BEFORE SENDING A Pull Request

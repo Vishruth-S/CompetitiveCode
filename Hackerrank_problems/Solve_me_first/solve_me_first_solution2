@@ -1,0 +1,9 @@
+def solveMeFirst(a,b):          # this function take 2 parameters and return addition of both number.
+	return a + b
+
+
+num1 = int(input())             # taking input from user and storing into num1 variable.
+num2 = int(input())             # taking input from user and storing into num2 variable.
+res = solveMeFirst(num1,num2)   # store the result into res variable.
+
+print(res)                      # print the result.

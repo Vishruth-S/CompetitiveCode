@@ -1,0 +1,1 @@
+Problem link: https://www.geeksforgeeks.org/count-pairs-with-given-sum/
