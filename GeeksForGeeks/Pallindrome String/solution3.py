@@ -4,6 +4,6 @@
 palindrome_check = lambda s: s[::-1] == s
 
 #tests
-palindrome_check("racecar")
-palindrome_check("abba")
-palindrome_check("palindrome')
+print(palindrome_check("racecar"))
+print(palindrome_check("abba"))
+print(palindrome_check("palindrome"))
