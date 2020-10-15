@@ -8,4 +8,4 @@ for i in range(int(input())):
         print(0)
 
     else:
-        print(k - min(a))  # if not subtracts the min element in the array to the value of k
+        print(k - min(a))  # if not, subtracts the min element in the array to the value of k
