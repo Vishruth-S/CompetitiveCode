@@ -1,4 +1,4 @@
-#include<bits\stdc++.h>
+#include<bits/stdc++.h>
 /* Used a vector to store the coordinates of the cities.
  The inputs being in increasing order either the difference between the last value and the the present or 
  the first value with the present will give the maximum cost 
