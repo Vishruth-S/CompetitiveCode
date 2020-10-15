@@ -13,12 +13,12 @@ class fibonacci
         for(int i=2;i<99999;i=n)
         {
             n=i+a;      // next term
-            if(x==a)
+            if(x==a)    //given input matches a fibonacci term
             {                
                 System.out.println("Fibbonaci continuation is \n"+a+"\t"+i+"\t"+(a+i)+"\t"+((a+i)+i)+"\t"+(((a+i)+i)+(a+i))+"\t"+((((a+i)+i)+(a+i))+((a+i)+i)));
                 n=99999;             
             }
-            if(i>x && x!=a)
+            if(i>x && x!=a)     //exits loop since once x exceeds given value, there's no point in comparing with a
             {
                 System.out.println("NOT A FIBONACCI TERM");
                 n=99999;
