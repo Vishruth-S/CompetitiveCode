@@ -3,6 +3,10 @@
 using namespace std;
 
 //Kaden's Algorithm's
+/*Simple idea of the Kadane’s algorithm is to look for all positive contiguous segments of the array .
+And keep track of maximum sum contiguous segment among all positive segments (max_so_far is used for this).
+Each time we get a positive sum compare it with max_so_far and update max_so_far if it is greater than max_so_far
+*/
 int main(){
     int n;
     cin>>n;
