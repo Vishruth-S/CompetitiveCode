@@ -1,4 +1,6 @@
 #include<bits\stdc++.h>
+/*used a set to take take unique digits of a number in sorted order(increasing)
+And checked if the iterator returned by the last value of matches with the iterator returned by set end*/
 using namespace std;
 int main(){
     long n,val,count=0;
