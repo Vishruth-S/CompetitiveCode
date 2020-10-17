@@ -10,7 +10,6 @@ To mark: - [x] Mark me as completed
 - [ ] The solution I have given is my **own** and not plagiarized in any form.
 - [ ] My solution passes all the testcases within the given constraints.
 - [ ] I have properly indented and **documented my solution using comments**.
-
 - [ ] I agree that all the above marked are true to the best of my knowledge and my PR can be closed if found otherwise.
 
 If any of the above is unmarked, please make the necessary changes and then mark them so that you're PR can be approved and merged.  
