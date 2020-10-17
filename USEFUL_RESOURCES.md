@@ -7,16 +7,8 @@
 * [Codeforces](https://codeforces.com/)
 * [Hackerearth](https://www.hackerearth.com/challenges/)
 
-### [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to work on all the theoritical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.
+### [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
-#### Benefits - 
-* Detailed Study Material
-* Proper Notes with code snippet examples
-* Free placement preparation courses and subject wise courses
-* MCQs based on theoritical chapters along with MCQs based on Aptitude, Logical Reasoning, Puzzles and many more
-* Company wise MCQs and previously asked coding questions
-* Documentation of actual experiences of candidates who sat at different placements company-wise
-* IDE to practice coding questions
 
 ### Free Website to take mock interviews: 
 
