@@ -1,3 +1,3 @@
-The problem can be found in the below link
+Problem Link
 
 https://leetcode.com/problems/unique-morse-code-words/
