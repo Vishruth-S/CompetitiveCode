@@ -7,6 +7,22 @@
 * [Codeforces](https://codeforces.com/)
 * [Hackerearth](https://www.hackerearth.com/challenges/)
 
+### [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to work on all the theoritical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.
+
+#### Benefits - 
+* Detailed Study Material
+* Proper Notes with code snippet examples
+* Free placement preparation courses and subject wise courses
+* MCQs based on theoritical chapters along with MCQs based on Aptitude, Logical Reasoning, Puzzles and many more
+* Company wise MCQs and previously asked coding questions
+* Documentation of actual experiences of candidates who sat at different placements company-wise
+* IDE to practice coding questions
+
+### Free Website to take mock interviews: 
+
+**[Pramp](https://www.pramp.com/)** - Here you can take free mock interviews based on data structures and algorithms, behavioural skills, product management and a lot more domains to explore.
+
+
 ### Websites to track progress
 * [StopStalk](https://www.stopstalk.com/) Here you can track your progress accross various websites and compare it with your friends and professional competitive coders.
 
