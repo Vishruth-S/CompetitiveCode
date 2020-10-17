@@ -3,7 +3,7 @@ You can contribute to this repo in any of the following ways
 ## Adding new problems and solutions
 
 * If you are selecting a problem from a website like hackerrank, codechef etc
-  * Add it to the respective folder (eg: hackerrank_problems; if it doesn't exist, create it)
+  * Add it to the respective folder (eg: CodeChef_problems; if it doesn't exist, create it)
   * Make a folder with the name as name of the problem given
   * Should have 2 files: `problem.md` and `solution`
   * Add the link to the problem in `problem.md` file
