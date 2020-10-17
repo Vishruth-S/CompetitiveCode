@@ -5,7 +5,7 @@
 //Complete the following function.
 
 //function definition
-void calculate_the_maximum(int n, int k) //function prints the maximum values for the and, or and xor comparisons{
+void calculate_the_maximum(int n, int k) { //function prints the maximum values for the and, or and xor comparisons{
     //int n: the highest number to consider
     //int k: the result of a comparison must be lower than this number to be considered
     int i,j,m1=0,m2=0,m3=0; //variables declared
