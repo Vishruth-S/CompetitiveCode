@@ -11,7 +11,7 @@ You can contribute to this repo in any of the following ways
   * Solutions must be properly indented and explained with comments
 
 * If you are submitting a new problem
-  * Add it to misc folder (if it doesn't exist, create it)
+  * Add it to misc folder 
   * Make a folder with name as name of the problem
   * Should have 2 files: `problem.md` and `solution`
   * In `problem.md`, provide detailed explanation of problem statement and constraints with at least 2 testcases and it's explanation
