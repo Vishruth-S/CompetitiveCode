@@ -22,6 +22,7 @@
 * [SDE Sheet](https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit) Covers all the important topics for placements(with solutions).
 * [Cheat_Sheet](https://docs.google.com/document/d/155FKIzQZyBZa1RhtesoOjjy3AgVZv4s8CZhOi3X2uFk/edit) Covers some important problems
 * [must_do](https://docs.google.com/spreadsheets/d/1k4KCjbBfgp3RdARQFZWpvqICuJ2M0rkvOG1DmRYDKU0/edit#gid=2055291123) Here you can find some of the most frequent problems asked in interviews
+* [DSA Cracker Sheet](https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view)
 
 ### Important book to practice for interviews
 
