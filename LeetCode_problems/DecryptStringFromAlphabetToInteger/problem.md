@@ -1,3 +1,3 @@
-The problem is present at the following place
+Problem link
 
 https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
