@@ -16,7 +16,7 @@
 class Solution {
     // Approach : Using a queue and Adding a dummy node after every level to separate different levels.
     public List<List<Integer>> levelOrder(TreeNode node) {
-      // Making a queue to add one level then                                        dummy node and their children afterwards.
+      // Making a queue to add one level then adding dummy node and their children afterwards.
           Queue<TreeNode>q= new ArrayDeque<>();
       List<List<Integer>> ans =  new ArrayList () ;
         if(node==null)
@@ -28,7 +28,7 @@ class Solution {
          List<Integer> no=new ArrayList<Integer>();
     while(q.size()!=0)
     {
-        // remove the parent node, add it in ans and then add its children.
+        // remove the parent node, add it in current list and then add its children.
       TreeNode temp=q.remove();   
    
         no.add(temp.val);
