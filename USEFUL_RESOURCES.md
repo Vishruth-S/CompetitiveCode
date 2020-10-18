@@ -7,16 +7,16 @@
 * [Codeforces](https://codeforces.com/)
 * [Hackerearth](https://www.hackerearth.com/challenges/)
 
-### [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
+[GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
 
-### Free Website to take mock interviews: 
+### Website to take mock interviews: 
 
-**[Pramp](https://www.pramp.com/)** - Here you can take free mock interviews based on data structures and algorithms, behavioural skills, product management and a lot more domains to explore.
+ * [Pramp](https://www.pramp.com/) - Here you can take free mock interviews based on data structures and algorithms, behavioural skills, product management and a lot more domains to explore.
 
 
 ### Websites to track progress
-* [StopStalk](https://www.stopstalk.com/) Here you can track your progress accross various websites and compare it with your friends and professional competitive coders.
+* [StopStalk](https://www.stopstalk.com/) - Here you can track your progress accross various websites and compare it with your friends and professional competitive coders.
 
 ### Important Problems for Interviews
 * [SDE Sheet](https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit) Covers all the important topics for placements(with solutions).
