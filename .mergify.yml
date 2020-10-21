@@ -7,11 +7,3 @@ pull_request_rules:
         message: Awesome :thumbsup:, Thanks for contributing :smiley:!
       merge:
         method: merge
-  - name: say hi on new contribution
-    conditions:
-      - author!=@myorg/regularcontributors
-    actions:
-       comment:
-         message: |
-                  Hey @{{author}}, Thanks for submitting your first PR here!
-                  Your PR will be reviewed soon, In the meantime, it would be great if you could star :star: this repo :smile:
