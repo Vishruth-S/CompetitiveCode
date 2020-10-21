@@ -45,6 +45,6 @@ Wait for your PR review and merge approval!** 🎉🎉
   * 🔗 [_**Ways of Contributing**_](CONTRIBUTING.md)
   * 🔗 [_**Code of Conduct**_](CODE_OF_CONDUCT.md)
 
-PS: Star this repo while you're at it :) ⭐⭐⭐⭐⭐
+### PS: Show some :yellow_heart: and star :star: this repo to support
 
-**Stay Awesome !!** :smiley:
+#### Stay Awesome !! :smiley:
