@@ -5,11 +5,7 @@ using namespace std;
 vector<string> split_string(string);
 
 
-// Complete the beautifulDays function below.
-
 // we are making a finction to reverse the given string
-
-
 int reverse(int x){
        int fin = 0;
         while (x>=1){
