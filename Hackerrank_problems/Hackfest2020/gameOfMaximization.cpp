@@ -15,24 +15,27 @@ vector<string> split(const string &);
 
 int maximumStones(vector<int> arr) {
     int sum = 0, carry_e = 0, carry_o = 0, even, odd, min, c_min;
+    //sum keeps track of currently pickable stones, carry_e and carry_o stores extra stones on the even and odd sides
+    //even, odd are respective indices
+    
     int n = arr.size();
     
-    for(even = 0, odd = 1; (even < n || odd < n); even += 2, odd += 2 ) {
-        if(even < n && odd < n) {
-            min = (arr[even] < arr[odd])? arr[even] : arr[odd];
+    for(even = 0, odd = 1; (even < n || odd < n); even += 2, odd += 2 ) {       //loop to iterate over array with evens and odds
+        if(even < n && odd < n) {                                               // checks for two consecutive numbers still present in array
+            min = (arr[even] < arr[odd])? arr[even] : arr[odd];                 // min stores min of the two and is added to sum
             sum += min;
-            carry_e += arr[even] - min;
+            carry_e += arr[even] - min;                                         // remaining extra stones counted in carry
             carry_o += arr[odd] - min;
         }
-        if(even < n && odd >= n) {
+        if(even < n && odd >= n) {                                               // when last element is left at even index without pair
             carry_e += arr[even];
         }
-        if(even >= n && odd < n) {
+        if(even >= n && odd < n) {                                               // when last element is left at odd index without pair
             carry_o += arr[odd];
         }
     }
-    c_min = (carry_e < carry_o)? carry_e : carry_o;
-    return (sum + c_min)*2;  
+    c_min = (carry_e < carry_o)? carry_e : carry_o;                              // c_min counts minimum stones from the extras which can also be picked
+    return (sum + c_min)*2;                                                      // adding c_min to sum and doubling to get total no. of stones 
 }
 
 int main()
