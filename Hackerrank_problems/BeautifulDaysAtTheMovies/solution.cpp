@@ -7,6 +7,7 @@ vector<string> split_string(string);
 
 // Complete the beautifulDays function below.
 
+// we are making a finction to reverse the given string
 
 
 int reverse(int x){
@@ -20,7 +21,8 @@ int reverse(int x){
 
 int beautifulDays(int i, int j, int k) {
 
-    
+    //interating from i to j and increasing the counter in reverse(x)-x is divisible by K
+    // at the end returning te count which is the answer
         int count = 0;
         for (int x = i; x <= j ; x++){
            int backVal = reverse(x);
