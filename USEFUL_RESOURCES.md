@@ -10,7 +10,7 @@
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
-[CareerCup](https://www.careercup.com/) - CareerCup is the world's biggest and best source for software engineering interview preparation.
+[CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
 
 ### Website to take mock interviews: 
