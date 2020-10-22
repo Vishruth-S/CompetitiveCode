@@ -6,12 +6,20 @@
 * [CodeChef](https://www.codechef.com/)
 * [Codeforces](https://codeforces.com/)
 * [Hackerearth](https://www.hackerearth.com/challenges/)
-* [freeCodeCamp](https://www.freecodecamp.org/learn/)
 * [Codewars](https://www.codewars.com/)
+* [freeCodeCamp](https://www.freecodecamp.org/learn/)
+* [AtCoder](https://atcoder.jp/)
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
+[InterviewBit](https://www.interviewbit.com/) - A great website to practice interview questions from top companies.
+
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
+
+### Tutorials to improve Competitive Programming:
+* [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/) - A list of best tutorials written by respected Topcoder members.
+
+* [A Way to Practice Competitive Programming](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view) - This tutorial will help you get from Rating 1000 to 2400+ on Codeforces. It is written by Codeforces Grandmaster Masataka Yoneda.
 
 
 ### Website to take mock interviews: 
