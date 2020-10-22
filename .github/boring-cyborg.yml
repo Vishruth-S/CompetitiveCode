@@ -1,0 +1,9 @@
+##### Greetings ########################################################################################################
+# Comment to be posted to welcome users when they open their first PR
+firstPRWelcomeComment: >
+  Thanks for opening this pull request! Please check out our contributing guidelines.
+
+# Comment to be posted to congratulate user on their first merged PR
+firstPRMergeComment: "Hi there :wave: Congratulations on sending your first PR here :sparkles: \nYour PR will be reviewed soon, in the meantime it would be great if you could star :star: this repo :smiley:"
+
+
