@@ -1,0 +1,12 @@
+name: "PR Greeter"
+on: [pull_request]
+
+jobs:
+  pr-greeter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Greeter"
+        uses: JJ/pr-greeting-action@releases/v0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: "Hi there :wave: Congratulations on sending your first PR here :sparkles: \nYour PR will be reviewed soon, in the meantime it would be great if you could star :star: this repo :smiley:"
