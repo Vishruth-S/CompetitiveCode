@@ -1,4 +1,4 @@
-#!/bin/python3
+
 
 import math
 import os
@@ -38,3 +38,5 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+
+## Logic : Simple for loop was used to traverse the sparse arrays one by one 
