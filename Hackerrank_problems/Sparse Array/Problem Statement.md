@@ -21,3 +21,5 @@ ab
 
 2
 1
+
+Link: https://www.hackerrank.com/challenges/sparse-arrays/problem
