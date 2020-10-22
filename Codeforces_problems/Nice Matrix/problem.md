@@ -1,1 +1,1 @@
-problem link:- https://codeforces.com/contest/1422/problem/B
+problem link: https://codeforces.com/contest/1422/problem/B
