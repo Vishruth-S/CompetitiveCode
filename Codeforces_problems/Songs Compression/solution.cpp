@@ -7,8 +7,6 @@ int main(){
 	long long int a[n], b[n], c[n];
 	for(int i=0; i<n; i++){
 		cin >> a[i] >> b[i];
-		y+=b[i]; //y=tamanho das músicas totais após a compressão 
-		c[i]=a[i]-b[i]; //diferença do tamanho da música após a compressão e inicialmente
 		x+=a[i]; //x=total song size initially
 		y+=b[i]; //y=total song size after compression
  
