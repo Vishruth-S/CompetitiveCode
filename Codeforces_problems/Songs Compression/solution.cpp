@@ -7,9 +7,12 @@ int main(){
 	long long int a[n], b[n], c[n];
 	for(int i=0; i<n; i++){
 		cin >> a[i] >> b[i];
-		x+=a[i]; //x=tamanho das músicas totais inicialmente
 		y+=b[i]; //y=tamanho das músicas totais após a compressão 
 		c[i]=a[i]-b[i]; //diferença do tamanho da música após a compressão e inicialmente
+		x+=a[i]; //x=total song size initially
+		y+=b[i]; //y=total song size after compression
+ 
+		c[i]=a[i]-b[i]; //difference in music size after compression and initially
 	}
  
 	if(y>m){
@@ -17,9 +20,9 @@ int main(){
 		return 0;
 	}
 	else{
-		sort(c, c+n); //Colocar a diferença em ordem crescente
+		sort(c, c+n); //Put the difference in ascending order
 		n--;
-		while(x>m){ //
+		while(x>m){
 			x-=c[n];
 			n--;
 			con++;
