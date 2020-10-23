@@ -27,7 +27,7 @@ int main () {
             by simply looking at how many '0' exists between the first
             and last '1'
 
-            so first we need to find our first '1', after that
+            so first we need to find our first '1' after that
             if we found a '0' we add +1 in a variable that's
             going to be added to our 'total' variable the next
             time we find a '1'
