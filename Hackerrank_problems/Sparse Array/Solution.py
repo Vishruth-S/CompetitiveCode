@@ -39,4 +39,7 @@ if __name__ == '__main__':
 
     fptr.close()
 
-## Logic : Simple for loop was used to traverse the sparse arrays one by one 
+# Logic : Simple for loop was used to traverse the sparse arrays one by one 
+#ie:
+#Store the input string in array of strings ie a character array,then for each query serch the entire stringand check
+#which all strings are equal to the current string by using strcmp and increment the answer accordingly.
