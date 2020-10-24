@@ -9,12 +9,14 @@
 * [Codewars](https://www.codewars.com/)
 * [freeCodeCamp](https://www.freecodecamp.org/learn/)
 * [AtCoder](https://atcoder.jp/)
+* [Spoj](https://www.spoj.com/problems/classical/)
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
 [InterviewBit](https://www.interviewbit.com/) - A great website to practice interview questions from top companies.
 
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
+
 
 ### Tutorials to improve Competitive Programming:
 * [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/) - A list of best tutorials written by respected Topcoder members.
@@ -39,4 +41,6 @@
 ### Important book to practice for interviews
 
 [Crack_the_coding_interview](https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf) An important book to up your interview skills
+
+[Narasimha Karumanchi - Data structures and algorithms made easy](https://github.com/MethkupalliVasanth/Books/blob/master/Narasimha%20Karumanchi%20-%20Data%20structures%20and%20algorithms%20made%20easy%20(0%2C%20CareerMonk).pdf) An important book to learn must needed algorithms for interviews
 
