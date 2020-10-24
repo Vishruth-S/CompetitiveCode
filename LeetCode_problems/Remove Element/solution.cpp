@@ -1,7 +1,7 @@
 
 //Remove Element
 //here we are given an array containing some elements along with the value to be removed from the array
-//and then return the count of remaining elements
+//then return the count of remaining elements
 
 class Solution {
 public:
