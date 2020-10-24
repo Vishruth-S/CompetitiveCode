@@ -17,9 +17,6 @@
 
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
-[LeetCode](https://leetcode.com/) - A great platform to practice questions, mock interviews for interviews from product based companies.
-
-[Spoj](https://www.spoj.com/problems/classical/) - Good source for practicing quality problems for competitive programming cum algorithms.
 
 ### Tutorials to improve Competitive Programming:
 * [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/) - A list of best tutorials written by respected Topcoder members.
