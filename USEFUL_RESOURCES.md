@@ -17,11 +17,15 @@
 
 [CareerCup](https://www.careercup.com/) - Good source for software engineering interview preparation.
 
+[CP-Algorithms](https://cp-algorithms.com/) - A good place to learn advanced data structures and algorithms for competitive programming.
+
 
 ### Tutorials to improve Competitive Programming:
 * [TopCoder Competitive Programming Tutorials](https://www.topcoder.com/community/competitive-programming/tutorials/) - A list of best tutorials written by respected Topcoder members.
 
 * [A Way to Practice Competitive Programming](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view) - This tutorial will help you get from Rating 1000 to 2400+ on Codeforces. It is written by Codeforces Grandmaster Masataka Yoneda.
+
+* [Errichto's Youtube Channel](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - Good video tutorials about competitive programming.
 
 
 ### Website to take mock interviews: 
