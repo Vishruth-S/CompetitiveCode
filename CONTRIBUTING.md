@@ -32,8 +32,8 @@ You can contribute to this repo in any of the following ways
 The idea is to collect different solutions/logic in different languages to some of the popular CP questions.  
 Read the following points carefully
 * The `problem` file should only contain either the link to the problem OR the problem itself. DON'T add anything related to the solution in the `problem` file.
-* In your `solution`, **ADD THE LOGIC USED FOR SOLVING IN THE FORM OF COMMENTS EITHER ALONG WITH THE CODE or AT THE BEGINNING OF THE CODE.**
-* The logic MUST be in the `solution` file and NOT in `problem` file
+* In your `solution`, **ADD THE LOGIC USED FOR SOLVING IN THE FORM OF COMMENTS EITHER ALONG WITH THE CODE or AT THE BEGINNING OF THE CODE. (if possible include the Time and Space complexities also)**
+* Use proper naming for variables. The variable name should be self explanatory. (avoid using a,b,c,i,j,x,y etc)
 * **More emphasis is given on understanding the logic used to get the solution rather than the code itself.** Hence simply copy-pasting code is not encouraged. 
 Any solution you add must be your own and not plagiarized in any manner. 
 
