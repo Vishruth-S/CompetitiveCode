@@ -48,5 +48,5 @@
 
 [Narasimha Karumanchi - Data structures and algorithms made easy](https://github.com/MethkupalliVasanth/Books/blob/master/Narasimha%20Karumanchi%20-%20Data%20structures%20and%20algorithms%20made%20easy%20(0%2C%20CareerMonk).pdf) An important book to learn must needed algorithms for interviews
 
-[Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
+[Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
