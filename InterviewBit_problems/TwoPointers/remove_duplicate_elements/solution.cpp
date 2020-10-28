@@ -22,9 +22,9 @@ int Solution::removeDuplicates(vector<int> &A)
         }
         if (A[j - 1] != A[j]) //array is sorted so we compare adjacent indeces
         {
-            j++;
+            j++;  //pointer j increments only for unique values
         }
-        i++;
+        i++; //pointer i traverses through all vector elements
     }
     return j;
 }

@@ -21,7 +21,7 @@ void Solution::merge(vector<int> &A, vector<int> &B)
     {
         if (A[i] > B[j])
         {
-            arr.push_back(B[j]);
+            arr.push_back(B[j]); 
             j++;
         }
         else
@@ -34,7 +34,7 @@ void Solution::merge(vector<int> &A, vector<int> &B)
     {
         while (i != A.size())
         {
-            arr.push_back(A[i]);
+            arr.push_back(A[i]); //since vector elements are sorted we can directly push them 
             i++;
         }
     }
@@ -42,7 +42,7 @@ void Solution::merge(vector<int> &A, vector<int> &B)
     {
         while (j != B.size()) //if elements of B are left, keep pushing them in arr till end
         {
-            arr.push_back(B[j]);
+            arr.push_back(B[j]); //since vector elements are sorted we can directly push them
             j++;
         }
     }
