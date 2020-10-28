@@ -28,7 +28,7 @@
 * [Errichto's Youtube Channel](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - Good video tutorials about competitive programming.
 
 
-### Website to take mock interviews: 
+### Websites to take mock interviews: 
 
  * [Pramp](https://www.pramp.com/) - Here you can take free mock interviews based on data structures and algorithms, behavioural skills, product management and a lot more domains to explore.
 
@@ -42,7 +42,7 @@
 * [must_do](https://docs.google.com/spreadsheets/d/1k4KCjbBfgp3RdARQFZWpvqICuJ2M0rkvOG1DmRYDKU0/edit#gid=2055291123) Here you can find some of the most frequent problems asked in interviews
 * [DSA Cracker Sheet](https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view) Covers all the important questions from all the topics for beginner.
 
-### Important book to practice for interviews
+### Important books to practice for interviews
 
 [Crack_the_coding_interview](https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf) An important book to up your interview skills
 
