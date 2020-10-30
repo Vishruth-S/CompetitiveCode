@@ -1,5 +1,8 @@
 // Link to Ques: https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array-ii/
 
+// Using 2 pointers to keep track of indexes within which a number lies.
+// If difference b/w indexes(i & j) is more than 2, 
+// leave behind first 2 numbers & erase the rest from given vector
 int Solution::removeDuplicates(vector<int> &A) {
     int n = A.size();
     if(A.size() == 0 || A.size() == 1){
