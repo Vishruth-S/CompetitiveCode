@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/github/contributors/Vishruth-S/CompetitiveCode">  <img src="https://img.shields.io/tokei/lines/github/Vishruth-S/CompetitiveCode">           <img src="https://img.shields.io/github/last-commit/Vishruth-S/CompetitiveCode">   <img src="https://img.shields.io/github/languages/count/Vishruth-S/CompetitiveCode">
 
 
-This is a repo for interesting Competitive Coding problems💻   
+This is a repo for interesting Competitive Coding problems and solutions💻   
 Check out [Useful Resources](https://github.com/Vishruth-S/CompetitiveCode/blob/main/USEFUL_RESOURCES.md) for some great resources that can help in Competitive Coding📜
 
 If you've got an interesting problem from any Competitve coding platform,add it in their respective folder. If you are creating your own problem, add it into "misc" folder
