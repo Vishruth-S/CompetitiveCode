@@ -8,7 +8,6 @@ using namespace std;
   
 // Returns number of pairs in arr[0..n-1] with sum equal
 
-
 // to 'sum' 
 int getPairsCount(int arr[], int n, int sum) 
 { 
