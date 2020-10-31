@@ -1,3 +1,7 @@
+// The logic is to simulate the entire process. We'll get the extra queries by subtracting k from the current day queries. We'll keep doing this for all value of n.
+// If at the end of this process, we still have any query left(queriesLeft >= 0), then we'll output the result by dividing queriesLeft by k and adding (n+1) to it.
+// Otherwise we'll straight forward output the value of the day when queriesLeft becomes < 0.
+
 // boilerplate for most of the cpp programs
 #include<bits/stdc++.h> // includes every standard library
 #define lli long long int
