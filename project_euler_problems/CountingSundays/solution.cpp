@@ -1,6 +1,5 @@
 #include <iostream>
-#include <cmath>
-// self powers from Project Euler
+// counting sundays from Project Euler
 
 // using enum here so that we can use descriptive
 // month names instead of numbers 0, 1, ... 11 when
