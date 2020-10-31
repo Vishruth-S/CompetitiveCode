@@ -1,38 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Function to find the K'th smallest element in the array using max-heap
 
-int main() {
-    int t;
-    cin>>t; //Input the number of test cases
+int findKthSmallest(vector<int> const &v, int k)
+{
+	// create a max-heap using std::priority_queue and
+	// insert first k elements of the array into the heap
+	priority_queue<int, vector<int>> pq(v.begin(), v.begin() + k);
 
-    while(t--){
-        int n;
-        cin>>n; //Input the length of the array entered
-        int a[n];
-        int freq[100001]={0}; //Initializing a frequency array with 0 to keep a count of the frequency of each inputted element
+	// do for remaining array elements
+	for (int i = k; i < v.size(); i++)
+	{
+		// if current element is less than the root of the heap
+		if (v[i] < pq.top())
+		{
+			// replace root with the current element
+			pq.pop();
+			pq.push(v[i]);
+		}
+	}
 
-        //Loop to input the elements
-        for(int i=0;i<n;i++){
-        cin>>a[i];
-            freq[a[i]]++; //Increasing the count of the ith element in the frequency array
-        }
+	// return the root of max-heap
+	return pq.top();
+}
 
-        int k;
-        cin>>k;//Input the number k to find the kth smallest element
-
-
-        for(int i=1;i<=100000;i++){
-            if(freq[i]>=1)//To check if the ith element is present in the array by checking its frequency from the frequency array
-            k=k-freq[i];
-
-            //If k becomes 0 or less than 0, it implies that the ith element is the kth smallest element
-            if(k<=0){
-            cout<<i<<endl; //Print the kth smallest element
-            break;
-            }
-        }
-
+// Find K'th smallest element in an array
+int main()
+{
+	int n,k;
+    cin >> n>> k;
+    vector<int> vec;
+    for(int i=0;i<n;i++){
+        int x;
+        cin >> x;
+        vec.push_back(x);
     }
+	cout << "K'th smallest element in the array is " << findKthSmallest(vec, k);
 	return 0;
 }
