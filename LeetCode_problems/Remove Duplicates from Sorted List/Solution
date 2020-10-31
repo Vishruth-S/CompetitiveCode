@@ -1,0 +1,17 @@
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        if head==None:        
+            return head
+        # We track the prev and current nodes
+        current= head.next
+        prev=head
+        while current!=None:
+            # If the vals of the two nodes are the same advance current
+            if current.val==prev.val:
+                prev.next=current.next
+                current=current.next
+            else:
+                # Otherwise we know they are different vals
+                current=current.next
+                prev=prev.next
+        return head

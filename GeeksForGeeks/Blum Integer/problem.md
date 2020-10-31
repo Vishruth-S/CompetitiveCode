@@ -1,0 +1,1 @@
+Problem: https://www.geeksforgeeks.org/blum-integer/
