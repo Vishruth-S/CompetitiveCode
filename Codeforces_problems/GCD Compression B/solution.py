@@ -1,5 +1,7 @@
 # To ensure that the GCD remains greater than 1, we add odd numbers and even numbers together to b
-# This ensures that the GCD always remains >= 2.
+# Adding two odd numbers makes sure that the sum is even (hence it has a multiple of 2).
+# Same with adding two even numbers.
+# This ensures that the GCD always remains >= 2 in our final array as all numbers are even.
 for tt in range(int(input())):
 	n = int(input())
 	l = list(map(int, input().split()))
