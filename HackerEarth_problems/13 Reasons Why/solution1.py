@@ -32,4 +32,4 @@ A = str(A)
 B = str(B)
 
 # Prints the answer.
-print(A + " " + B)
+print(A, B)
