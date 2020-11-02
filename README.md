@@ -1,6 +1,7 @@
 # CompetitiveCode <img align = "right" src ="https://img.shields.io/github/watchers/Vishruth-S/CompetitiveCode?style=social"> <img align = "right" src ="https://img.shields.io/github/stars/Vishruth-S/CompetitiveCode?style=social">    <img align = "right" src ="https://img.shields.io/github/forks/Vishruth-S/CompetitiveCode?style=social">
 
 <img src="https://img.shields.io/github/contributors/Vishruth-S/CompetitiveCode">  <img src="https://img.shields.io/tokei/lines/github/Vishruth-S/CompetitiveCode">             <img src="https://img.shields.io/github/languages/count/Vishruth-S/CompetitiveCode"> <img src="https://img.shields.io/github/issues/Vishruth-S/CompetitiveCode">
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
 
 
 This is a repo for interesting Competitive Coding problems and solutions💻   
