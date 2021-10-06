@@ -2,6 +2,9 @@
 
 using namespace std; 
 
+// Time Complexity O(32*(n^2)) or O(n^2)
+// Space Complexity O(1) as no extra space is used
+
 
 int dx[8] = {1,0,-1,0,1,1,-1,-1};  // Used for X axis directions
 
@@ -12,7 +15,7 @@ void solve(){
 
     int n,m; 
 
-    n=m=20;  // n m are taken 20 as required by problem 
+    n=m=20; // n m are taken 20 as required by problem 
 
     // For generalising n m taking n and m as input 
     
