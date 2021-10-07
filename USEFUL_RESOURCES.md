@@ -10,6 +10,8 @@
 * [freeCodeCamp](https://www.freecodecamp.org/learn/)
 * [AtCoder](https://atcoder.jp/)
 * [Spoj](https://www.spoj.com/problems/classical/)
+* [CodeStudio by Coding Ninjas](https://www.codingninjas.com/codestudio)
+
 
 [GeeksForGeeks](https://www.geeksforgeeks.org/) - Best place to find detailed notes on theoretical subjects including Database Management System, Data Structures, Data Algorithms, Object Oriented Programming, Operating Systems and many more.An all rounder website for placement preparation having company wise coding questions and MCQs.
 
@@ -26,6 +28,10 @@
 * [A Way to Practice Competitive Programming](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view) - This tutorial will help you get from Rating 1000 to 2400+ on Codeforces. It is written by Codeforces Grandmaster Masataka Yoneda.
 
 * [Errichto's Youtube Channel](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) - Good video tutorials about competitive programming.
+
+* [Striver's Youtube Channel](https://www.youtube.com/watch?v=lm5EiwiGtw0) - How to start Competitive Programming ? Guide for Beginners !
+
+
 
 
 ### Websites to take mock interviews: 
