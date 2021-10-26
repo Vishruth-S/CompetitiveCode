@@ -57,3 +57,8 @@
 
 [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) An important book to improve competitive programming skills.
 
+### Awesome Discord Server Community
+
+[Priyansh31dec Server](https://discord.gg/MzTxQDCP)
+
+[Errichto Server Official](https://discord.gg/mavn2aeb)
